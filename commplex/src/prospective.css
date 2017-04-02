@@ -1,0 +1,52 @@
+body{
+	font-family: "Courier New", monospace;
+	color: white;
+}
+
+.OuterCard{
+	border: 1px solid black;
+	width: 350px;
+	height: 370px;
+	background-color: #2F3652;
+	box-shadow: 10px 10px 5px #888888;
+	
+}
+
+
+.CardBottom{
+	border: 1px solid black;
+	width: 350px;
+	height: 350px;
+	background-color: #555874;
+}
+
+.Box{
+	border:1px solid black;
+}
+
+.CardImg{
+	width: 200px;
+	height: 200px;
+}
+
+.ButtonName{
+	background-color: #4CAF50;
+	font-family: "Courier New", monospace;
+	color: white;
+	width: 80px;
+	height: 30px;
+	transition-duration: 0.4s;
+}
+
+span{
+	padding: 20px;
+	
+	display: none;
+}
+
+.ButtonName:hover + span {
+	background-color: white;
+	border: 2px solid #4CAF50;
+	color: black;
+	display: block;
+}
